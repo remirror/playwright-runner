@@ -1,15 +1,21 @@
 {
-  "name": "playwright-superpowers",
-  "version": "0.0.8",
+  "name": "@jestify/inject-playwright",
+  "version": "0.0.0",
   "description": "Injects playwright apis into a page.",
-  "main": "out/index.js",
+  "repository": "https://github.com/remirror/playwright-runner/tree/HEAD/packages/superpowers",
+  "license": "MIT",
+  "contributors": [
+    "Ifiok Jr. <ifiokotung@gmail.com>"
+  ],
+  "main": "dist/inject-playwright.cjs.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
   "devDependencies": {
     "playwright": "^1.0.0"
   },
-  "license": "MIT",
-  "dependencies": {},
-  "author": {
-    "name": "Microsoft Corporation"
-  },
-  "repository": "github:Microsoft/playwright-runner"
+  "publishConfig": {
+    "access": "public"
+  }
 }

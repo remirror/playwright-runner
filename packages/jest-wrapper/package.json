@@ -1,20 +1,27 @@
 {
-  "name": "@playwright/jest-wrapper",
+  "name": "@jestify/jest-wrapper",
+  "version": "0.0.0",
+  "description": "Transforms a test runner into a jest runner.",
+  "repository": "https://github.com/remirror/playwright-runner/tree/HEAD/packages/jest-wrapper",
+  "license": "MIT",
+  "contributors": [
+    "Ifiok Jr. <ifiokotung@gmail.com>"
+  ],
+  "main": "dist/jest-wrapper.cjs.js",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
-    "@jest/test-result": "^25.2.6",
-    "@jest/transform": "^25.3.0",
-    "describers": "0.0.8",
-    "expect": "^25.2.7",
-    "jest-message-util": "^25.2.6",
-    "jest-validate": "^25.5.0",
+    "@jest/test-result": "^26.3.0",
+    "@jest/transform": "^26.3.0",
+    "@jestify/describers": "0.0.0",
+    "expect": "^26.4.2",
+    "jest-message-util": "^26.3.0",
+    "jest-runner": "^26.4.2",
+    "jest-validate": "^26.4.2",
     "playwright": "^1.0.0"
   },
-  "version": "0.0.8",
-  "description": "Transforms a test runner into a jest runner.",
-  "main": "out/index.js",
-  "license": "MIT",
-  "author": {
-    "name": "Microsoft Corporation"
-  },
-  "repository": "github:Microsoft/playwright-runner"
+  "publishConfig": {
+    "access": "public"
+  }
 }

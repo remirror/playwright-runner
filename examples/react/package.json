@@ -1,0 +1,18 @@
+{
+  "name": "@jestify/react-example",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "https://github.com/remirror/playwright-runner/tree/HEAD/examples/react",
+  "main": "dist/demo.cjs.js",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@jestify/describers": "^0.0.0",
+    "@jestify/e2e": "^0.0.0",
+    "@jestify/unit": "^0.0.0",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6"
+  }
+}

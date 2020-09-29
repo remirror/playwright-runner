@@ -1,0 +1,21 @@
+{
+  "name": "@jestify/babel-plugin-imports",
+  "version": "0.0.0",
+  "repository": "https://github.com/remirror/playwright-runner/tree/HEAD/packages/babel-plugin-imports",
+  "license": "MIT",
+  "contributors": [
+    "Ifiok Jr. <ifiokotung@gmail.com>"
+  ],
+  "main": "dist/babel-plugin-imports.cjs.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/helper-plugin-utils": "^7.8.3",
+    "@types/babel__core": "^7.1.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

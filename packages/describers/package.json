@@ -1,11 +1,17 @@
 {
-  "name": "describers",
-  "version": "0.0.8",
+  "name": "@jestify/describers",
+  "version": "0.0.0",
   "description": "A small library providing it/describe syntax for tests.",
-  "main": "out/index.js",
+  "repository": "https://github.com/remirror/playwright-runner/tree/HEAD/packages/describers",
   "license": "MIT",
-  "author": {
-    "name": "Microsoft Corporation"
-  },
-  "repository": "github:Microsoft/playwright-runner"
+  "contributors": [
+    "Ifiok Jr. <ifiokotung@gmail.com>"
+  ],
+  "main": "dist/describers.cjs.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

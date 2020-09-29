@@ -1,5 +1,6 @@
 import expect from 'expect';
-export {expect};
+
+export { expect };
 
 export {
   it,
@@ -11,5 +12,5 @@ export {
   beforeEach,
   afterEach,
   beforeAll,
-  afterAll
+  afterAll,
 } from 'describers';

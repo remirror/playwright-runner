@@ -1,20 +1,27 @@
 {
-  "name": "jest-runner-playwright-e2e",
+  "name": "@jestify/e2e",
+  "version": "0.0.0",
+  "description": "Runs end-to-end browser tests",
+  "repository": "https://github.com/remirror/playwright-runner/tree/HEAD/packages/e2e",
+  "license": "MIT",
+  "contributors": [
+    "Ifiok Jr. <ifiokotung@gmail.com>"
+  ],
+  "main": "dist/e2e.cjs.js",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
-    "@jest/test-result": "^25.2.6",
-    "@jest/transform": "^25.3.0",
-    "describers": "0.0.8",
-    "expect": "^25.2.7",
-    "jest-message-util": "^25.2.6",
-    "jest-validate": "^25.5.0",
+    "@jest/test-result": "^26.3.0",
+    "@jest/transform": "^26.3.0",
+    "@jestify/describers": "0.0.0",
+    "@jestify/jest-wrapper": "0.0.0",
+    "expect": "^26.4.2",
+    "jest-message-util": "^26.3.0",
+    "jest-validate": "^26.4.2",
     "playwright": "^1.0.0"
   },
-  "version": "0.0.8",
-  "description": "Runs end-to-end browser tests",
-  "main": "out/index.js",
-  "license": "MIT",
-  "author": {
-    "name": "Microsoft Corporation"
-  },
-  "repository": "github:Microsoft/playwright-runner"
+  "publishConfig": {
+    "access": "public"
+  }
 }
